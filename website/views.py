@@ -4,4 +4,4 @@ from django.http import HttpResponse
 def home_view(request):
  
     # logic of view will be implemented here
-    return render(request, "landingpage/templates/home.html")
+    return render(request, "home.html")
